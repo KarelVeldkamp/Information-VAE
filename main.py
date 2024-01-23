@@ -58,7 +58,8 @@ vae = VAE(nitems=data.shape[1],
             hidden_layer_size=cfg['hidden_layer_size'],
             hidden_layer_size2=cfg['hidden_layer_size2'],
             learning_rate=cfg['learning_rate'],
-            batch_size=data.shape[0]
+            batch_size=data.shape[0],
+            n_samples=cfg['n_iw_samples']
 )
 
 
